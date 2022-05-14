@@ -3,7 +3,11 @@ import React from 'react';
 
 function Header() {
     return (
-        <h1>header</h1> 
+        <h2>
+            <a data-testid="link" href="/">
+            <h1>Welcome to Winnie Wu's Portfolio!</h1> 
+            </a>
+        </h2>
     );
 };
 

@@ -9,7 +9,8 @@ import Resume from './components/Resume';
 import './App.css';
 
 function App() {
-  const [pages] = useState(["About","Portfolio", "Contact", "Resume"])
+  const [pages] = useState(
+    ["About","Portfolio", "Contact", "Resume"])
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   function renderSwitch(page) {
