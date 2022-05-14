@@ -13,18 +13,13 @@ function App() {
 
   return (
     <div>
-      <Header />
       <Navigation />
+      <main>
       <About />
       <Portfolio />
       <Contact />
       <Resume />
-      <main>
-        
-        <Project />
-
       </main>
-      <Footer />
     </div>
   );
 }
