@@ -1,12 +1,11 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../../utils/helpers';
+// import { capitalizeFirstLetter } from '../../../utils/helpers';
 
 function Header() {
-
+    return (
+        <h1>header</h1> 
+    );
 };
 
-return (
-    
-);
 
 export default Header;

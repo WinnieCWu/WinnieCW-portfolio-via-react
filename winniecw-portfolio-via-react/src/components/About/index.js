@@ -1,6 +1,6 @@
 import React from 'react';
 import coverImage from '../../assets/cover-image.jpg';
-import developerPhoto from '../../assets/cover-image.jpg';
+import developerPhoto from '../../assets/developer-photo.jpg';
 
 function About() {
   return (
