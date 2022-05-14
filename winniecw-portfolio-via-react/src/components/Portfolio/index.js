@@ -3,6 +3,7 @@ import Project from '../Project';
 
 const Portfolio = ({ projects }) => {
 //   const [currentProject, setCurrentProject] = useState();
+//must have 6 apps with links to both (1) deployed link and (2) github repo .. ideally with MERN stack
 
   const [projects] = useState([
     { 

@@ -1,5 +1,6 @@
 import React from 'react';
 import coverImage from '../../assets/cover-image.jpg';
+import developerPhoto from '../../assets/cover-image.jpg';
 
 function About() {
   return (
@@ -7,6 +8,7 @@ function About() {
       <h1 id="about">Who am I?</h1>
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
+        <img src ={developerPhoto} alt="developer photo"/>
         <p>
           Hi everyone! My name is Winnie Wu, and I am a soon-to-be UC Berkeley Extension Coding Bootcamp graduate starting 6/1/2022!
           I really look forward to applying my newfound coding and development skills in the field, helping the world become a better place for all.

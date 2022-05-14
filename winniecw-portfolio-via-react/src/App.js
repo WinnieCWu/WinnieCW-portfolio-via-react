@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <Header/>
       <Navigation />
       <main>
       <About />
@@ -20,6 +21,7 @@ function App() {
       <Contact />
       <Resume />
       </main>
+      <Footer/>
     </div>
   );
 }
