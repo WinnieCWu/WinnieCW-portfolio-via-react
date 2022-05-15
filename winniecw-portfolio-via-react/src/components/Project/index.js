@@ -5,14 +5,8 @@ const Project = (currentPage) => {
   return (
     <div>
       <h3>{name}</h3>
-      {/* <img
-        src={require(`../../assets/${projects}/${index}.jpg`).default}
-        alt="current project"
-      />
-      <p>{description}</p>
-      <button type="button" onClick={onClose}>
-        Close this project
-      </button> */}
+      <li>{category}</li>
+      <ul>{description}</ul>
     </div>
   );
 };

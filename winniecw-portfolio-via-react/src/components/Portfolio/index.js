@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import Project from '../Project';
-// import { capitalizeFirstLetter } from "../../utils/helpers";
+import Project from '../Project';
 
 const Portfolio = () => {
   //must have 6 apps with links to both (1) deployed link and (2) github repo .. ideally with MERN stack
@@ -24,23 +23,33 @@ const Portfolio = () => {
   return (
     <section>
       <h1>Portfolio</h1>
-      <ul className="flex-row">
-        {projects.map((project) => (
-          <li
-            className={`mx-1 ${
-                    currentPage.name === project.name &&
-                    !currentPage &&
-                    "navActive"
-            }`}
-            key={project.name}>
-            <span onClick={() => {
-                      // setCurrentPage(project);
-                    }}>
-                {/* {capitalizeFirstLetter(project.name)} */}
-            </span>
-          </li>
+      <div> 
+        {projects.map(project => (
+          <Project
+            name = {project.name}
+            category = {project.category}
+            description = {project.description}
+          />
+          // <li
+          //   className={`mx-1 ${
+          //           currentPage.name === project.name &&
+          //           !currentPage &&
+          //           "navActive"
+          //   }`}
+          //   key={project.name}>
+
+          //     {project.name}
+          //     <ol>{project.category}</ol>
+          //     <ol>{project.description}</ol>
+
+          //   <span onClick={() => {
+          //             // setCurrentPage(project);
+          //           }}>
+          //       {/* {capitalizeFirstLetter(project.name)} */}
+          //   </span>
+          // </li>
         ))}
-      </ul>
+      </div>
     </section>
   );
 };

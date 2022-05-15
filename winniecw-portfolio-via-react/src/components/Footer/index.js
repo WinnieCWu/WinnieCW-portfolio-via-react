@@ -5,7 +5,6 @@ import githubIcon from '../../assets/github_icon.jpg';
 import linkedInIcon from '../../assets/linkedin_icon.jpg';
 import stackOverflowIcon from '../../assets/stackoverflow_icon.jpg';
 
-// import { capitalizeFirstLetter } from '../../../utils/helpers';
 
 function Footer() {
     return (
