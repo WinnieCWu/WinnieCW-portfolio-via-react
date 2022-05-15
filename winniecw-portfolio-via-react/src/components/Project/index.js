@@ -11,7 +11,7 @@ const Project = (currentPage) => {
       />
       <p>{description}</p>
       <button type="button" onClick={onClose}>
-        Close this modal
+        Close this project
       </button> */}
     </div>
   );
