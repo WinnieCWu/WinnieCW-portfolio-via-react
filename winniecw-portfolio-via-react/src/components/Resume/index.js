@@ -1,6 +1,3 @@
-//have link to downloadable resume
-//have list of developer's proficiencies
-
 import React from 'react';
 import resume from '../../assets/Resume.pdf';
 function Resume() {
