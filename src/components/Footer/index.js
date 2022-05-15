@@ -9,7 +9,6 @@ import stackOverflowIcon from '../../assets/stackoverflow_icon.jpg';
 function Footer() {
     return (
         <section id="footer">
-            <h1>Footer</h1>
         
                 <a href="https://github.com/WinnieCWu">
                     <img src={githubIcon} alt="github icon"/>
