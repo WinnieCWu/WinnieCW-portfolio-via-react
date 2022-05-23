@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <h2>
+        <h2 id="header">
             <a data-testid="link" href="/">
             <h1>Welcome to Winnie Wu's Portfolio!</h1> 
             </a>
