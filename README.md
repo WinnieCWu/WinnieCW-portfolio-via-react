@@ -13,4 +13,4 @@ Screenshot of deployed app:
 
 
 ## Contributors
-I am the sole developer of my portfolio.
+I am the sole developer of my portfolio. Please contact me at winniechn7@gmail.com if you have any questions or comments. Thank you!
