@@ -18,7 +18,7 @@ function Nav(props) {
     <header className="flex-row px-1" id="nav">
       <nav>
         <div className="navbar">
-        <div className="navbar-header col-lg-12">
+        <div className="navbar-header col-lg-12 justify-flex-start">
         <ul className="flex-row">
           {pages.map(page=>{
             return ( <Li page={page} setCurrentPage={setCurrentPage} />
