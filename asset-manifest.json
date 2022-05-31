@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/winniecw-portfolio-via-react/static/css/main.db2c372c.css",
+    "main.js": "/winniecw-portfolio-via-react/static/js/main.7bf55fc5.js",
+    "static/js/787.4b0268ce.chunk.js": "/winniecw-portfolio-via-react/static/js/787.4b0268ce.chunk.js",
+    "static/media/cover-image1.jpg": "/winniecw-portfolio-via-react/static/media/cover-image1.0706084355d92f373466.jpg",
+    "static/media/cover-image.jpg": "/winniecw-portfolio-via-react/static/media/cover-image.8ddb6932145f269c22b6.jpg",
+    "static/media/0.JPG": "/winniecw-portfolio-via-react/static/media/0.d10891ae91d29ba7a64d.JPG",
+    "static/media/Resume.pdf": "/winniecw-portfolio-via-react/static/media/Resume.67666220c950576828b3.pdf",
+    "static/media/5.JPG": "/winniecw-portfolio-via-react/static/media/5.caa62ce1a020619fd85e.JPG",
+    "static/media/1.JPG": "/winniecw-portfolio-via-react/static/media/1.82d17f001a270034161f.JPG",
+    "static/media/3.JPG": "/winniecw-portfolio-via-react/static/media/3.83d05d30a0e032998ec4.JPG",
+    "static/media/2.JPG": "/winniecw-portfolio-via-react/static/media/2.a130e3953e858000e793.JPG",
+    "static/media/4.JPG": "/winniecw-portfolio-via-react/static/media/4.8a878ddbfeb0df4043b1.JPG",
+    "index.html": "/winniecw-portfolio-via-react/index.html",
+    "main.db2c372c.css.map": "/winniecw-portfolio-via-react/static/css/main.db2c372c.css.map",
+    "main.7bf55fc5.js.map": "/winniecw-portfolio-via-react/static/js/main.7bf55fc5.js.map",
+    "787.4b0268ce.chunk.js.map": "/winniecw-portfolio-via-react/static/js/787.4b0268ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db2c372c.css",
+    "static/js/main.7bf55fc5.js"
+  ]
+}
